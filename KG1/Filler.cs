@@ -16,7 +16,6 @@ namespace KG1
             Queue<Point> points = new Queue<Point>();
 
             points.Enqueue(startingPoint);
-            bitmap.MakeTransparent();
 
             int colorArgb = color.ToArgb();
 
